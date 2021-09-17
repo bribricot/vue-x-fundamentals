@@ -1,0 +1,114 @@
+{
+  "events": [
+    {
+      "id": 101,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "petsAllowed": true,
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": 102,
+      "category": "food",
+      "title": "Community Gardening",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "petsAllowed": true,
+      "organizer": "Fern Pollin"
+    },
+    {
+      "id": 103,
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "petsAllowed": false,
+      "organizer": "Carey Wales"
+    },
+    {
+      "id": 104,
+      "category": "animal welfare",
+      "title": "Dog Adoption Day",
+      "description": "Find your new canine friend at this event.",
+      "location": "Woof Town",
+      "date": "August 28, 2022",
+      "time": "12:00",
+      "petsAllowed": true,
+      "organizer": "Dawg Dahd"
+    },
+    {
+      "id": 105,
+      "category": "food",
+      "title": "Canned Food Drive",
+      "description": "Bring your canned food to donate to those in need.",
+      "location": "Tin City",
+      "date": "September 14, 2022",
+      "time": "3:00",
+      "petsAllowed": true,
+      "organizer": "Kahn Opiner"
+    },
+    {
+      "id": 106,
+      "category": "sustainability",
+      "title": "Highway Cleanup",
+      "description": "Help pick up trash along the highway.",
+      "location": "Highway 50",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "petsAllowed": false,
+      "organizer": "Brody Kill"
+    },
+    {
+      "id": 107,
+      "category": "marketing",
+      "title": "The Australian Association of National Advertisers",
+      "description": "Vidyard, an online video platform for businesses, hosted a meetup (which I happened to attend and love) for business professionals to meet and discuss the use of video in marketing and sales.",
+      "location": "Chicago",
+      "date": "Febrary 15, 2022",
+      "time": "15:00",
+      "petsAllowed": true,
+      "organizer": "Vidyard"
+    },
+    {
+      "id": 108,
+      "category": "sponsorship",
+      "title": "Opening party Local Pet Shop",
+      "description": "A great way to sponsor a local walkathon. It will show your support for the community and the animals in need who live there!",
+      "location": "New York",
+      "date": "March 24, 2022",
+      "time": "11:00",
+      "petsAllowed": true,
+      "organizer": "Volvo Display South Hall"
+    },
+    {
+      "id": 109,
+      "category": "test",
+      "title": "Connected cars & Automated driving",
+      "description": "Aside from the pets, celebrity personalities, and mascots, the expo makes cars fun for everyone!",
+      "location": "Orlando",
+      "date": "May 14, 2022",
+      "time": "15:00",
+      "petsAllowed": true,
+      "organizer": "Jim Rose"
+    },
+    {
+      "id": 110,
+      "category": "webinars",
+      "title": "Marketing automation software",
+      "description": "As you can imagine, webinars hold plenty of the same opportunities of live events.",
+      "location": "San Fransisco",
+      "date": "June 1, 2022",
+      "time": "19:00",
+      "petsAllowed": true,
+      "organizer": "Kristen McCabe"
+    }
+  ]
+}
