@@ -1,6 +1,6 @@
 # Touring Vue Router Example App
 
-This is the Vue 3 application we build step by step in the Touring Vue Router course on Vue Mastery. It's starting code is based on the final code from the Real World Vue 3 course.
+This is the Vue 3 application we build step by step in the Fundamentals Vue X course on Vue Mastery. It's starting code is based on the final code from the Touring Vue Router course.
 
 ## Project setup
 
