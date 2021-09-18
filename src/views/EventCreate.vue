@@ -61,6 +61,7 @@
 </template>
 
 <script>
+import { v4 as uuidv4 } from 'uuid'
 export default {
   data () {
     return {
@@ -91,6 +92,9 @@ export default {
   },
   methods: {
     onSubmit() {
+// Set our organizer field equals to the state whenever we submit the form. We only accessing our state exactly when we need it so we're avoiding setting our data with it, and then that state somehow changing and then we have still data that we accidentally submitting :(.  
+		this.event.id = uuidv4 // This method will created a complex, unique id that we can use every time we clicked submit.
+    	this.event.organizer = this.$store.state.user
       console.log("Event:", this.event)
     }
   }
