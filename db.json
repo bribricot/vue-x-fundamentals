@@ -109,6 +109,66 @@
       "time": "19:00",
       "petsAllowed": true,
       "organizer": "Kristen McCabe"
+    },
+    {
+      "category": "nature",
+      "title": "Pic-Nic",
+      "description": "Bring all your dishes and let's make a giant pic-nic.",
+      "location": "Washington DC",
+      "date": "2/03/2022",
+      "time": "12:00",
+      "organizer": "Lucie Kraemer",
+      "id": 111
+    },
+    {
+      "id": "c9341d04-56f7-4149-8ac5-4b9551ea1e84",
+      "category": "nature",
+      "title": "Walk",
+      "description": "A steep walk on the mountains",
+      "location": "Mont Everest",
+      "date": "02/05/2022",
+      "time": "07:00",
+      "organizer": "Lucie Kraemer"
+    },
+    {
+      "id": "1bf565f4-6524-49e8-91af-0d07b22d5d10",
+      "category": "nature",
+      "title": "Walk",
+      "description": "A steep walk on the mountains",
+      "location": "Mont Everest",
+      "date": "02/05/2022",
+      "time": "07:00",
+      "organizer": "Lucie Kraemer"
+    },
+    {
+      "id": "89acc061-5ed9-423a-b9f6-fe0c491350c9",
+      "category": "nature",
+      "title": "Walk",
+      "description": "A steep walk on the mountains",
+      "location": "Mont Everest",
+      "date": "02/05/2022",
+      "time": "07:00",
+      "organizer": "Lucie Kraemer"
+    },
+    {
+      "id": "a06b2452-7464-453c-974b-d19ac518bb53",
+      "category": "nature",
+      "title": "Festival of boats",
+      "description": "See magnificent boats from all around the world",
+      "location": "Sydney",
+      "date": "2/09/2022",
+      "time": "12:00",
+      "organizer": "Lucie Kraemer"
+    },
+    {
+      "id": "15573453-93d0-443c-8c05-7ddb079db99f",
+      "category": "webinars",
+      "title": "Fund Syndicators- Welcome & Real Estate Market Analysis",
+      "description": " In our first meeting we plan to open a warm welcome and group introductions (to those willing), followed by our agenda stated below. We hope to make this an open platform to discuss a wide array of strategies and projects that we may be working on.",
+      "location": "NY",
+      "date": "23/10/2022",
+      "time": "12:00",
+      "organizer": "Lucie Kraemer"
     }
   ]
 }

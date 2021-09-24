@@ -56,14 +56,17 @@
 
     <button type="submit">Submit</button>
   </form>
+  <div>{{ $store.state.events }}</div> <!--For testing purposes -->
 
 </div>
 </template>
 
 <script>
 import { v4 as uuidv4 } from 'uuid'
+import EventService from '@/services/EventService.js'
+
 export default {
-  data () {
+  data() {
     return {
       categories: [
         'sustainability',
@@ -91,11 +94,22 @@ export default {
     }
   },
   methods: {
-    onSubmit() {
+
 // Set our organizer field equals to the state whenever we submit the form. We only accessing our state exactly when we need it so we're avoiding setting our data with it, and then that state somehow changing and then we have still data that we accidentally submitting :(.  
-		this.event.id = uuidv4 // This method will created a complex, unique id that we can use every time we clicked submit.
-    	this.event.organizer = this.$store.state.user
-      console.log("Event:", this.event)
+		
+onSubmit() {
+  const event = {
+    ...this.event,
+    id: uuidv4(),  // This method will created a complex, unique id that we can use every time we clicked submit.
+    organizer: this.$store.state.user
+  }
+  	EventService.postEvent(event)
+      .then(() => {
+      	this.$store.commit('ADD_EVENT', event) //For adding event to VueX state, you have to commit the ADD_EVENT mutation, specified by name, and pass in the event as a payload
+      })
+      .catch(error => {
+    	console.log(error)
+      })
     }
   }
 }

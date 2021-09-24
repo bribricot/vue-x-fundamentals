@@ -2,9 +2,14 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-  	user: 'Lucie Kraemer'
+  	user: 'Lucie Kraemer',
+  	events: []
   },
-  mutations: {},
+  mutations: {
+    ADD_EVENT(state, event) {
+      state.events.push(event)
+    }
+  },
   actions: {},
   modules: {}
 })
